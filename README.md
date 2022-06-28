@@ -1,2 +1,2 @@
-# Curso-html-css
+# Curso: html e css
  cursoemvideo.com
