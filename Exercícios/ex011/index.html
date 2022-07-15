@@ -7,6 +7,13 @@
     <title>Exercício 11</title>
 </head>
 <body>
-    
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fundo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fundo-m.png" type="image/png">
+        <img src="imagens/fundo-g.png" alt="Imagem de fundo para tela grande">
+    </picture>
 </body>
 </html>

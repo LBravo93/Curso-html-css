@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>
+        Alterar tamanhos das imagens de fundo.
+    </h1>
+    <p>Aumente e diminua o tamando da tela do seu navegador para ver a imagem maior ou menor.<br>
+        <small>Também é possível ver a diferença no tamanho da imagens em dispositivos com tamanho de tela
+            diferentes.</small>
+    </p>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/fundo-350.jpg" sizes="jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/fundo-600.jpg" sizes="jpg">
+        <source media="(max-width: 1750px)" srcset="imagens/fundo-1000.jpg" type="image/jpg">
+        <img src="imagens/fundo-1700.jpg" alt="Imagem com 1700 pixels">
+    </picture>
+</body>
+
+</html>
